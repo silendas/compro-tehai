@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@react-google-maps/api": "^2.20.3",
     "compro-tehai": "file:",
     "next": "15.1.0",
     "react": "^19.0.0",
