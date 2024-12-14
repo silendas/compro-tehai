@@ -1,9 +1,9 @@
 export default function FeaturedMenu() {
   const menuItems = [
-    { name: "Mie Ayam", price: "Rp.13.000", category: "Main Course" },
-    { name: "Baso", price: "Rp.13.000", category: "Main Courses" },
+    { name: "Seblak", price: "Rp.7.000", category: "Main Course" },
+    { name: "Dumpling", price: "Rp.2.000/Pcs", category: "Main Courses" },
     { name: "Aneka Jus", price: "Rp.10.000", category: "Drinks" },
-    { name: "Coffe", price: "Rp.5.000", category: "Drinks" },
+    { name: "Kopi", price: "Rp.5.000", category: "Drinks" },
   ]
 
   return (

@@ -16,7 +16,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <span className="text-xl font-bold">Mie Baso Tehai</span>
+            <span className="text-xl font-bold">Kios Tehai</span>
           </div>
 
           <div className="hidden md:block">
