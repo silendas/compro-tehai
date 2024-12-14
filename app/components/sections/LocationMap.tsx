@@ -20,11 +20,17 @@ export default function LocationMap({
             <p>Phone: (123) 456-7890</p>
             <p>Email: info@restaurant.com</p>
           </div>
-          <iframe
-            src={`https://www.openstreetmap.org/export/embed.html?bbox=${longitude-0.01}%2C${latitude-0.01}%2C${longitude+0.01}%2C${latitude+0.01}&layer=mapnik&marker=${latitude}%2C${longitude}`}
-            className="w-full h-[400px] rounded-lg border-0"
-            title="Restaurant Location"
-          />
+          <div className="relative">
+            <iframe
+              src={`https://www.openstreetmap.org/export/embed.html?bbox=${longitude-0.01}%2C${latitude-0.01}%2C${longitude+0.01}%2C${latitude+0.01}&layer=mapnik&marker=${latitude}%2C${longitude}`}
+              className="w-full h-[400px] rounded-lg border-0"
+              title="Restaurant Location"
+              loading="lazy"
+            />
+            <small className="absolute bottom-0 right-0 bg-white px-2 py-1 text-xs">
+              © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors
+            </small>
+          </div>
         </div>
       </div>
     </section>
