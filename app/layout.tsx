@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import GoogleAnalytics from './lib/GoogleAnalytics'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 
@@ -19,10 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <script
-          async
-          src={`https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&libraries=maps&callback=Function.prototype`}
-        />
+        <GoogleAnalytics />
       </head>
       <body className={inter.className}>
         <Navbar />
