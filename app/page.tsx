@@ -21,8 +21,8 @@ export default function Home() {
       
       <section id={sections.LocationMap.id}>
         <sections.LocationMap.component 
-          latitude={-6.2088}
-          longitude={106.8456}
+          latitude={-6.586488753852987}
+          longitude={106.80960453909383}
         />
       </section>
     </main>
