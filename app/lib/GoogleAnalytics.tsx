@@ -9,6 +9,9 @@ const GoogleAnalytics = () => {
       if (typeof window.gtag === "function") {
         window.gtag("config", "G-ZF5JW167V8", {
           page_path: url,
+          page_location: window.location.href,
+          page_title: document.title,
+          screen_resolution: `${window.screen.width}x${window.screen.height}`,
         });
       }
     };
